@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body id="home" style="padding-top: 3.5rem;" class="bg-body-secondary">
+    <nav class="navbar navbar-expand-lg bg-dark-subtle fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Amazing Places</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#america">America</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#europe">Europe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#asia">Asia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#github">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/random/720x280?sig=1" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/720x280?sig=2" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/720x280?sig=3" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center p-4">Meet Amazing Places</h1>
+        <div class="w-100 bg-dark-subtle p-5 mb-2 mt-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, quibusdam repellendus perspiciatis nulla soluta fugit dignissimos eos aperiam reprehenderit. Rerum saepe cum tenetur magnam natus! Ad, labore. Reprehenderit odio saepe eum minus libero itaque deserunt, ducimus soluta nam corrupti nobis alias unde, enim assumenda! Error vel temporibus dolores nisi eius.</p>
+            <button type="button" class="btn btn-primary btn-lg">Discover new places</button>
+        </div>
+
+        <h2 id="america" class="fs-2 p-5 mt-2 mb-1 text-center">Meet America</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div>
+                    <div class="card m-2">
+                        <img src="https://source.unsplash.com/random/360x240?sig=1" class="card-img-top" alt="North America">
+                        <div class="card-body">
+                          <h5 class="card-title">North America</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <div class="card m-2">
+                        <img src="https://source.unsplash.com/random/360x240?sig=2" class="card-img-top" alt="North America">
+                        <div class="card-body">
+                          <h5 class="card-title">Central America</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <div class="card m-2">
+                        <img src="https://source.unsplash.com/random/360x240?sig=3" class="card-img-top" alt="North America">
+                        <div class="card-body">
+                          <h5 class="card-title">South America</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="europe" class="fs-2 p-5 mt-2 mb-1 text-center">Europe</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <div class="card m-2">
+                        <img src="https://source.unsplash.com/random/360x240?sig=4" class="card-img-top" alt="North America">
+                        <div class="card-body">
+                          <h5 class="card-title">UK</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="card m-2">
+                        <img src="https://source.unsplash.com/random/360x240?sig=5" class="card-img-top" alt="North America">
+                        <div class="card-body">
+                          <h5 class="card-title">More Europe</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="asia" class="fs-2 p-5 mt-2 mb-1 text-center">Asia</h2>
+        <div class="col-md-6 m-auto">
+            <div class="card m-2">
+                <img src="https://source.unsplash.com/random/360x240?sig=6" class="card-img-top" alt="North America">
+                <div class="card-body">
+                    <h5 class="card-title">Meet Asia</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto tempore ab rerum illo quasi?</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="about" class="fs-2 p-5 mt-2 mb-1 text-center">About</h2>
+        <div class="w-100 m-2">
+            <p>This was my first page created with just HTML and Bootstrap 5! I tried to make it as clean and responsive as possible. For the first try I think it's good! What do you think?
+            </p>
+            <p>Bootstrap is actually a powerful tool for creating beautiful and responsive web pages quickly! I really liked!</p>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="bg-secondary text-white p-4 m-2">
+                    <h3 class="fs-3">HTML 5</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae nesciunt natus consequuntur quos, sed ipsa optio officiis quis officia, neque eveniet excepturi nisi at reprehenderit odio iste corporis quaerat dolorum molestiae beatae voluptatem amet alias. Eos earum quasi qui aperiam?</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-dark-subtle p-4 m-2">
+                    <h3 class="fs-3">Bootstrap 5</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae nesciunt natus consequuntur quos, sed ipsa optio officiis quis officia, neque eveniet excepturi nisi at reprehenderit odio iste corporis quaerat dolorum molestiae beatae voluptatem amet alias. Eos earum quasi qui aperiam?</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="github" class="fs-2 p-5 mt-2 mb-1 text-center">My GitHub</h2>
+        <div class="w-100 bg-primary-subtle p-4 mb-2 text-center">
+            <p>I'm glad you made it this far! Feel free to explore my GitHub and learn about other projects by clicking the button below.</p>
+            <a href="https://github.com/jonathangeovani" target="_blank"class="btn btn-primary">Go to GitHub</a>
+            <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia suscipit expedita labore deserunt ratione delectus. Officia incidunt quam sint corporis consectetur. Placeat accusantium in facilis.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="w-100 bg-dark text-center text-white pt-4 pb-4">
+        <p>&copy; Fake Corporation</p>
+        <p>Check out my other project by <a class="link-offset-1 text-decoration-none" href="https://find-movies-react.netlify.app">clicking here!</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
